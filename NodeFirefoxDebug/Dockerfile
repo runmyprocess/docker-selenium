@@ -2,7 +2,7 @@
 # NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED.
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-FROM runmyprocess/latest
+FROM runmyprocess/node-firefox:latest
 MAINTAINER Selenium <selenium-developers@googlegroups.com>
 
 USER root
