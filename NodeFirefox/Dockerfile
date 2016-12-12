@@ -37,8 +37,8 @@ RUN wget --no-verbose -O /tmp/geckodriver.tar.gz https://github.com/mozilla/geck
 #========================
 # Selenium Configuration
 #========================
-ENV NODE_MAX_INSTANCES 1
-ENV NODE_MAX_SESSION 1
+ENV NODE_MAX_INSTANCES 5
+ENV NODE_MAX_SESSION 5
 ENV NODE_REGISTER_CYCLE 5000
 COPY generate_config /opt/selenium/generate_config
 RUN chmod +x /opt/selenium/generate_config \
